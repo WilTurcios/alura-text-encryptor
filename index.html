@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Encritador de Texto</title>
+</head>
+
+<body>
+
+  <main class="container">
+    <section class="encrypt_section">
+      <form method="post" class="encrypt_section_form" id="encrypt_form">
+        <textarea class="encrypt_section_input" name="text" id="text" placeholder="Escribe tu texto aquí...">
+        </textarea>
+        <div class="encrypt_section_buttons_container">
+          <button class="btn" id="encrypt">Encriptar</button>
+          <button class="btn" id="decrypt">Desencriptar</button>
+        </div>
+      </form>
+      <aside class="encrypt_section_result_container">
+        <div id="result_box">
+
+        </div>
+      </aside>
+    </section>
+  </main>
+  <script src="index.js" type="module">
+  </script>
+</body>
+
+</html>
