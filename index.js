@@ -1,5 +1,4 @@
 import { copyText } from './components/copy-text.js'
-import { fallback } from './components/fallback.js'
 import { Encryptor } from './utils/encryptor.js'
 import { sleep } from './utils/sleep.js'
 
