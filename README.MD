@@ -60,6 +60,6 @@ console.log('Texto desencriptado:', decryptedText)
 Este proyecto está desarrollado utilizando HTML, CSS y JavaScript. Para ejecutarlo localmente, simplemente clona este repositorio y abre el archivo index.html en tu navegador.
 
 ```bash
-git clone https://github.com/tu-usuario/encriptador-de-texto.git
-cd encriptador-de-texto
+git clone https://github.com/WilTurcios/alura-text-encryptor
+cd alura-text-encryptor
 ```
