@@ -10,25 +10,29 @@
 
 <body>
 
-  <main class="container">
-    <section class="encrypt_section">
-      <form method="post" class="encrypt_section_form" id="encrypt_form">
-        <textarea class="encrypt_section_input" name="text" id="text" placeholder="Escribe tu texto aquí...">
-        </textarea>
-        <div class="encrypt_section_buttons_container">
-          <button class="btn" id="encrypt">Encriptar</button>
-          <button class="btn" id="decrypt">Desencriptar</button>
-        </div>
-      </form>
-      <aside class="encrypt_section_result_container">
-        <div id="result_box">
+  <main class="encrypt">
+    <header class="header">WT</header>
+    <form method="post" class="encrypt__form" id="encrypt-form">
+      <textarea class="encrypt__input" name="text" id="text" placeholder="Escribe tu texto aquí..."></textarea>
+      <div class="encrypt__buttons_box">
+        <button class="encrypt__button" id="encrypt" tabindex="1">Encriptar</button>
+        <button class="encrypt__button" id="decrypt" tabindex="2">Desencriptar</button>
+      </div>
+    </form>
+    <aside class="encrypt__result_box">
 
+      <div class="encrypt__result_box__not-found">
+        <img src="assets/Muñeco.svg" alt="Image represeting that there's no text provided">
+        <div>
+          <strong>Ningún mensaje fue encontrado</strong>
+          <span>Por favor, ingresa un texto para encriptar o desencriptar</span>
         </div>
-      </aside>
-    </section>
+      </div>
+
+      <!-- <button class="encrypt__copy-btn" id="copy-btn">Copy</button> -->
+    </aside>
   </main>
-  <script src="index.js" type="module">
-  </script>
+  <script src="index.js" type="module"></script>
 </body>
 
 </html>
